@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  margin-right: 4rem;
+  border: 1px solid rgb(71, 175, 210);
+  padding: 22px;
+}
+.btn {
+  background-color: rgb(71, 210, 71);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+tr {
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.delete {
+  background-color: rgb(218, 54, 54);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.update {
+  background-color: rgb(24, 140, 212);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
